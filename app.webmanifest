@@ -1,6 +1,7 @@
 {
   "name": "Swap Game",
-  "start_url": "/pwa-example",
+  "start_url": "/pwa-example/",
+  "scope": "/pwa-example/",
   "display": "standalone",
   "theme_color": "#5d00ab",
   "background_color": "#000000",
