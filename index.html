@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="app.webmanifest">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+
+    <script src="script.js" type="module"></script>
+    <script src="registerSW.js" defer></script>
+
+    <title>Swap Game</title>
+  </head>
+
+  <body>
+    <h1 class="won">Level beaten!</h1>
+    <div class="game">
+      <div class="field" data-num="0"></div>
+      <div class="field" data-num="1"></div>
+      <div class="field" data-num="2"></div>
+      <div class="field" data-num="3"></div>
+      <div class="field" data-num="4"></div>
+      <div class="field" data-num="5"></div>
+      <div class="field" data-num="6"></div>
+      <div class="field" data-num="7"></div>
+      <div class="field" data-num="8"></div>
+    </div>
+    <h2>Level <span id="level-indicator">1</span></h2>
+
+    <button id="pwa-install-btn" hidden>Install!</button>
+
+  </body>
+
+</html>
